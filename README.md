@@ -1,7 +1,4 @@
 # practicum-summarization-bot
-A chatbot for automatic transcription, summarization of audio lectures, and subsequent generation of study tasks to convert synchronous learning into asynchronous learning.
-
-# Lecture Assistant Bot
 
 Telegram-бот для автоматической транскрибации, суммаризации аудиолекций и генерации учебных заданий.
 
@@ -28,23 +25,27 @@ Telegram-бот для автоматической транскрибации, 
 
 ## Структура проекта
 
-lecture-assistant-bot/
-├── bot.py                 # Главный файл бота
-├── asr.py                 # Транскрибация (Whisper)
-├── summarizer.py          # Суммаризация (Yandex Cloud LLM)
-├── questions.py           # Генерация заданий
-├── database.py            # Работа с БД
-├── config.py              # Загрузка переменных окружения
-├── utils.py               # Вспомогательные функции
-├── requirements.txt       # Зависимости
-├── .env.example           # Пример переменных окружения
-├── .gitignore
-├── README.md              # Этот файл
-└── docs/                  # Полная документация
-    ├── user-guide.md
-    ├── architecture.md
-    ├── development-guide.md
-    └── deployment.md
+| Файл | Назначение |
+|------|-----------|
+| `bot.py` | Главный файл бота |
+| `asr.py` | Транскрибация (Whisper) |
+| `summarizer.py` | Суммаризация (Yandex Cloud) |
+| `questions.py` | Генерация заданий |
+| `database.py` | Работа с БД |
+| `config.py` | Переменные окружения |
+| `utils.py` | Вспомогательные функции |
+| `requirements.txt` | Зависимости Python |
+| `.env.example` | Пример .env |
+| `.gitignore` | Исключения Git |
+| `README.md` | Общая информация |
+| `docs/` | Папка с документацией |
+
+**Содержимое `docs/`:**
+- `user-guide.md` — руководство пользователя
+- `architecture.md` — архитектура
+- `development-guide.md` — гайд разработчика
+- `deployment.md` — развёртывание
+- `api-reference.md` — API функций
     
 ## Функциональность
 
@@ -58,4 +59,8 @@ lecture-assistant-bot/
 
 | Имя | Роль | GitHub |
 |-----|------|--------|
-| ... | ... | @... |
+| Милана Майорова | Team Leader | @svyatoslavna |
+| Виктория Жиляева | ... | @zhilyaevaviktorija |
+| Стефания Чернова | ... | @steffiprog |
+| Маргарита Баева  | ... | @ritaveab |
+| Екатерина Иванова | ... | @litlsun |
