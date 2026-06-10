@@ -68,7 +68,7 @@
 
 ## Шаг 2. Открытие блокнота в Colab
 
-1. Перейдите [по ссылке]([url](https://github.com/litlsun/practicum-summarization-bot/blob/develop/notebooks/webinar_summarizer_lite.ipynb)) на блокнот
+1. Перейдите по ссылке на блокнот: https://github.com/litlsun/practicum-summarization-bot/blob/develop/notebooks/webinar_summarizer_lite.ipynb 
 2. Нажмите **«Open in Colab»**
 
 > Блокнот откроется в Google Colab — это бесплатная среда, где код выполняется на серверах Google.
