@@ -217,4 +217,3 @@ YANDEX_CLOUD_FOLDER = "b1gxxxxxxxxxxxx"
 
 ---
 **Удачного запуска!**
-```
