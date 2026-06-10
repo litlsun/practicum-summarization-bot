@@ -60,7 +60,7 @@
 
 ## Шаг 4. Откройте блокнот бота в Colab
 
-1. Перейдите по ссылке на блокнот: [notebooks/ya_sum_bot.ipynb](https://github.com/litlsun/practicum-summarization-bot/blob/develop/notebooks/ya_sum_bot.ipynb)
+1. Перейдите по ссылке на блокнот: [`ya_sum_bot.ipynb`](https://github.com/litlsun/practicum-summarization-bot/blob/develop/notebooks/ya_sum_bot.ipynb)
 2. Нажмите **«Open in Colab»**
 
 ---
