@@ -24,29 +24,12 @@
 
 ---
 
-## Структура проекта
-```
-practicum-summarization-bot/
-├── notebooks/
-│   ├── webinar_summarizer_lite.ipynb   # Упрощённая версия: суммаризация по ссылке
-│   └── ya_sum_bot.ipynb                # Полноценный Telegram-бот
-├── docs/
-│   ├── architecture.md                 # Архитектура решения
-│   ├── development-guide.md            # Гайд разработчика (запуск бота)
-│   └── user-guide_summarizer.md        # Руководство пользователя (блокнот)
-├── .gitignore
-└── README.md
-```
-
-
----
-
 ## Что здесь есть?
 
 | Файл | Назначение |
 |------|-------------|
-| `notebooks/webinar_summarizer_lite.ipynb` | Запуск в Colab: вставьте ссылку → получите конспект |
-| `notebooks/ya_sum_bot.ipynb` | Telegram-бот: отправьте ссылку боту → получите файлы |
+| `notebooks/webinar_summarizer_lite.ipynb` | КОД. Запуск в Colab: вставьте ссылку → получите конспект |
+| `notebooks/ya_sum_bot.ipynb` | КОД. Telegram-бот: отправьте ссылку боту → получите файлы |
 | `docs/user-guide_summarizer.md` | Инструкция для преподавателей (как пользоваться блокнотом) |
 | `docs/development-guide.md` | Инструкция для разработчиков (как запустить бота) |
 | `docs/architecture.md` | Описание компонентов и потока данных |
